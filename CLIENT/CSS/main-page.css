@@ -1,0 +1,96 @@
+body {
+    overflow: hidden;
+    background-color: #0e1015;
+    color: white;
+}
+
+
+div.frame{
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    background-color: transparent;
+    color: white;
+    border-radius: 0px;
+    font-weight: 100;
+    margin-left: -100px;
+}
+
+.tooltip-inner {
+  border-color: aqua;
+  box-shadow: 0px 0px 4px black;
+  opacity: 1 !important;
+}
+
+.bg-custom{
+  min-height: 100vh;
+    background-color: #101318;
+    color: white;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.btn-group button, div.btn-group button.close {
+    -webkit-app-region: no-drag;
+    border: 0px solid transparent; /* Green border */
+    background-color: transparent;
+    color: white; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: right;
+    align-content: right;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #222;
+  }
+
+  .btn-group button.exit:hover {
+    background-color: rgb(250, 77, 77);
+  }
+
+  li.nav-item a{
+    color: rgb(141, 141, 141);
+  }
+
+  li.nav-item a:hover{
+    color: white;
+  }
+
+
+  .tooltip{
+    color: black;
+  }
+
+  .tooltip.tooltip > .tooltip-inner
+{
+    text-align: left;
+    max-width: 500px;
+    background-color: #0e1015;
+    border-radius: 0px;
+    border-color: transparent;
+}
+
+li.nav-item.dropup::after {
+  content: none;
+}
+
+.btn-custom, .btn-custom:hover, .btn-custom:focus, .btn-custom:active{
+  background-color: #13161b;
+  color: transparent;
+  border-radius: 0px;
+  outline: none;
+  box-shadow: none;
+}
+
+button.active.focus, button.active:focus,
+button.focus, button:active.focus, 
+button:active:focus, button:focus {
+  outline: none;
+  box-shadow: none;
+}

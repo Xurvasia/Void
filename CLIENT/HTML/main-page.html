@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="../CSS/main-page.css" rel="stylesheet" crossorigin="anonymous">
+
+    <title>Voidless</title>
+  </head>
+  <body>
+    <!-- TOP BAR DO NOT DELETE-->
+
+
+
+
+    <div class="container-fluid">
+        <div class="row" style="margin-right: -25px;">
+            <div class="col-sm-auto bg-custom sticky-top">
+                <div class="d-flex flex-sm-column flex-row flex-nowrap align-items-center sticky-top">
+                    <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center mt-3">
+                        <li class="nav-item">
+                            <img src="../IMG/logo.png" width="30px">
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link py-3 px-2" data-bs-toggle="tooltip" data-bs-placement="right" title="Home">
+                                <i class="fa-solid fa-house fa-lg"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                    <hr>
+                    <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center sticky-bottom">
+                        <li class="nav-item dropup">
+                            <a class="nav-link dropup-toggle" href="#" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="../IMG/default-profile.png" width="35px">
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                              <span class="badge border border-light rounded-circle bg-success p-1" style="position: absolute; transform: translate( 5px, -17px);"><span class="visually-hidden">unread messages</span></span>
+                        </li>
+                    </ul>
+            </div>
+            <div class="col-sm">
+                    <div class="btn-group frame" style="display: flex; justify-content: flex-end;">
+                        <button class="min" id="min" onclick="minWindow()">─</button>
+                        <button class="max" id="max" onclick="maxWindow()">☐</button>
+                        <button class="exit" id="exit" onclick="exitWindow()">⨉</button>
+                    </div> 
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2cad19d213.js" crossorigin="anonymous"></script>
+    <script src="../JS/main-page.js" crossorigin="anonymous"></script>
+  </body>
+</html>
